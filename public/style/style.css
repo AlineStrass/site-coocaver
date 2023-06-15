@@ -19,6 +19,8 @@
   --green-middle: #B5D8C1;
   --green-light: #E1EEE6;
 
+  --white: #ffffff;
+
 }
 
 .header-banner {
@@ -52,6 +54,7 @@ img.header-celphone {
     text-transform: uppercase;
     align-items: center;
     height: 100px;
+    justify-content: space-between;
 }
 
 .logo {
@@ -60,10 +63,23 @@ img.header-celphone {
 
 img.logo {
     width: 85px;
-    margin-left: 100px;
+    margin-left: 160px;
 }
 
 .menu-options {
     display: flex;
     flex-direction: row;
+    margin-right: 160px;
+    color: var(--white);
+}
+
+a.menu {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+}
+
+p.menu {
+    padding-right: 50px;
+
 }
