@@ -23,6 +23,7 @@
 
 }
 
+/* --------------------------------------- HEADER --------------------------------------- */
 .header-banner {
     background-color: var(--yellow-principal);
     display: flex;
@@ -36,13 +37,19 @@
     font-size: 13.6px;
 }
 
+p.header-banner {
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+}
+
 img.header-phone {
-    width: 11px;
+    width: 32px;
     padding: 5px 5px 6px 15px;
 }
 
 img.header-celphone {
-    width: 20px;
+    width: 34px;
     padding: 5px 2px 8px 15px;
 }
 
@@ -55,10 +62,6 @@ img.header-celphone {
     align-items: center;
     height: 100px;
     justify-content: space-between;
-}
-
-.logo {
-
 }
 
 img.logo {
@@ -82,4 +85,36 @@ a.menu {
 p.menu {
     padding-right: 50px;
 
+}
+
+
+/* --------------------------------------- BODY / SECTION --------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------- FOOTER --------------------------------------- */
+
+footer {
+    background-color: var(--green-principal);
+    color: var(--white);    
+}
+
+.box-contact {
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-medias {
+    margin-right: 160px;
 }
