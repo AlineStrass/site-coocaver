@@ -135,6 +135,7 @@ div.information {
     flex-wrap: nowrap;
     flex-direction: row;
     background-color: var(--yellow-middle);
+    color: var(--green-extra-dark);
 }
 
 p.information-taxi {
@@ -147,8 +148,33 @@ img.illustration {
     width: 500px;
     margin-right: 162px;
     margin-top: 185px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
+
+div.app-store {
+    padding-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--yellow-middle);
+    color: var(--green-extra-dark);
+}
+
+h2.links-app {
+    text-transform: uppercase;
+}
+
+img.links-app {
+    padding: 30px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+img.img02 {
+    width: 320px;
+}
+
+/* --------------------------------------- POSTO --------------------------------------- */
 
 
 /* --------------------------------------- FOOTER --------------------------------------- */
