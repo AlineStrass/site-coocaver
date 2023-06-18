@@ -23,6 +23,10 @@
 
 }
 
+body {
+    /*overflow-x: hidden*/
+}
+
 /* --------------------------------------- HEADER --------------------------------------- */
 .header-banner {
     background-color: var(--yellow-principal);
@@ -89,9 +93,40 @@ p.menu {
 
 
 /* --------------------------------------- BODY / SECTION --------------------------------------- */
+/* --------------------------------------- BANNER - APP --------------------------------------- */
 
+div.banner-app {
+    position: absolute;
+    
+}
+img.banner-app {
+    height: 900px;
+    width: 100vw;
+}
 
+div.text-banner-app {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-left: 990px;
+}
+h1.banner-app {
+    font-size: 65px;
+    padding-top: 245px;
+    color: #141E17;
+    
+}
 
+.log-rt {
+    text-align: end;
+    margin-right: 85px;
+}
+
+img.logo-rt {
+    position: relative;
+    width: 135px;
+
+}
 
 
 
