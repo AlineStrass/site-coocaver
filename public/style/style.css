@@ -24,7 +24,8 @@
 }
 
 body {
-    /*overflow-x: hidden*/
+    overflow-x: hidden;
+    width: 100vw;
 }
 
 /* --------------------------------------- HEADER --------------------------------------- */
@@ -92,8 +93,8 @@ p.menu {
 }
 
 
-/* --------------------------------------- BODY / SECTION --------------------------------------- */
-/* --------------------------------------- BANNER - APP --------------------------------------- */
+/* ------------------------------------ BODY / SECTION ------------------------------------ */
+/* ------------------------------------ BANNER - APP ------------------------------------- */
 
 div.banner-app {
     position: absolute;
@@ -117,17 +118,37 @@ h1.banner-app {
     
 }
 
-.log-rt {
+.logo-rt {
     text-align: end;
     margin-right: 85px;
+    padding-top: 35px;
 }
 
 img.logo-rt {
     position: relative;
     width: 135px;
-
 }
 
+/* ---------------------------------- APP INFORMATION ----------------------------------- */
+div.information {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: var(--yellow-middle);
+}
+
+p.information-taxi {
+    font-size: 40px;
+    margin-top: 260px;
+    margin-left: 162px;
+}
+
+img.illustration {
+    width: 500px;
+    margin-right: 162px;
+    margin-top: 185px;
+    padding-bottom: 30px;
+}
 
 
 /* --------------------------------------- FOOTER --------------------------------------- */
