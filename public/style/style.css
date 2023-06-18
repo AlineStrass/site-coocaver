@@ -92,6 +92,11 @@ p.menu {
 
 }
 
+div.detail {
+    background-color: var(--yellow-principal);
+    width: 100%;
+    height: 1px;
+}
 
 /* ------------------------------------ BODY / SECTION ------------------------------------ */
 /* ------------------------------------ BANNER - APP ------------------------------------- */
@@ -228,6 +233,12 @@ p.title {
 div.filial {
     margin-top: 32px;
     margin-left: 100px;
+}
+
+div.detail-footer {
+    background-color: var(--yellow-principal);
+    width: 100%;
+    height: 1px;
 }
 
 div.copyrigth {
