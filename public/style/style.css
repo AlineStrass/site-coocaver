@@ -184,19 +184,55 @@ footer {
     color: var(--white);    
 }
 
-.box-contact {
-    margin-left: 160px;
+div.box-contact {
+    margin-left: 180px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 20px;
 }
 
-.contact {
+div.contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 30px 30px 30px 0px;
 }
 
-.social-medias {
-    margin-right: 160px;
+p.text {
+    padding-bottom: 5px;
+}
+
+p.title {
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+div.phone {
+    margin-right: 100px;
+}
+
+div.social-medias {
+    margin: 30px 180px 50px 30px;
+}
+
+img.link-social-media {
+    width: 50px;
+    margin: 25px;
+}
+
+p.title {
+    font-weight: 600;
+}
+
+div.filial {
+    margin-top: 32px;
+    margin-left: 100px;
+}
+
+div.copyrigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
