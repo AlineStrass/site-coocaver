@@ -16,6 +16,7 @@
   --green-middle-dark: #193021;
   --green-dark: #1C4A2D;
   --green-principal: #16843D;
+  --green: #528F68;
   --green-middle: #B5D8C1;
   --green-light: #E1EEE6;
 
@@ -186,8 +187,45 @@ img.img02 {
 
 /* --------------------------------------- POSTO --------------------------------------- */
 
+div.gas-station {
+    /*position: absolute;*/
+}
 
+div.detail-gas-station {
+    width: 100%;
+    height: 15px;
+    
+}
 
+.green {
+    background-color: var(--green-principal);
+    
+}
+
+.yellow {
+    background-color: var(--yellow-principal);
+}
+
+div.container-gas-station {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+img.br-logo {
+    width: 110px;
+    margin-left: 180px;
+    /*position: relative;
+    top:0;
+    left: 0;*/
+}
+
+h2.gas-station {
+    font-size: 35px;
+    color: var(--green-extra-dark);
+    margin-left: 110px;
+    text-transform: uppercase;
+}
 
 /* ------------------------------------- QUEM SOMOS ------------------------------------ */
 .body-who-we-are {
