@@ -28,6 +28,10 @@ body {
     width: 100vw;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* --------------------------------------- HEADER --------------------------------------- */
 .header-banner {
     background-color: var(--yellow-principal);
@@ -182,6 +186,39 @@ img.img02 {
 /* --------------------------------------- POSTO --------------------------------------- */
 
 
+
+
+/* ------------------------------------- QUEM SOMOS ------------------------------------ */
+.body-who-we-are {
+    margin: 130px 160px;
+    display: flex;
+}
+
+h1.title-who-we-are {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: var(--green-dark);
+    margin-top: 115px;
+    text-indent: 250px
+}
+
+p.who-we-are {
+    font-size: 28px;
+    color: var(--green-extra-dark);
+    line-height: 45px;
+    text-indent: 90px;
+    text-align: justify;
+    margin-right: 30px;
+}
+
+img.history {
+    width: 570px;
+    margin-bottom: 10px;
+}
+
+
+
+
 /* --------------------------------------- FOOTER --------------------------------------- */
 
 footer {
@@ -231,7 +268,7 @@ p.title {
 }
 
 div.filial {
-    margin-top: 32px;
+    margin-top: 45px;
     margin-left: 100px;
 }
 
