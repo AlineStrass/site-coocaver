@@ -28,9 +28,6 @@ body {
     width: 100vw;
 }
 
-a {
-    text-decoration: none;
-}
 
 /* --------------------------------------- HEADER --------------------------------------- */
 .header-banner {
@@ -42,14 +39,19 @@ a {
     text-transform: uppercase;
     align-items: center;
     padding-right: 25px;
-    height: 28px;
-    font-size: 13.6px;
+    height: 35px;
 }
 
 p.header-banner {
     font-weight: 900;
     font-size: 15px;
     letter-spacing: 0.9px;
+    text-decoration: none;
+    color: var(--green-extra-dark);
+}
+
+a.header-banner {
+    text-decoration: none;
 }
 
 img.header-phone {
@@ -69,7 +71,7 @@ img.header-celphone {
     flex-wrap: nowrap;
     text-transform: uppercase;
     align-items: center;
-    height: 100px;
+    height: 115px;
     justify-content: space-between;
 }
 
@@ -89,6 +91,7 @@ a.menu {
     text-decoration: none;
     color: var(--white);
     font-weight: 500;
+    font-size: 17px;
 }
 
 p.menu {
