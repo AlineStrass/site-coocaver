@@ -357,3 +357,54 @@ div.copyrigth {
     align-items: center;
     padding: 30px;
 }
+
+
+/* --------------------------------------- CONTATO --------------------------------------- */
+body.body-contact {
+    background-color: var(--green-light);
+}
+
+.contact {
+    margin: 100px 180px;
+    display: block;
+}
+
+div.adress-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2.adress {
+    margin: 0 0 20px 0;
+    font-size: 35px;
+}
+
+h3.adress {
+    margin: 20px 0 15px 0;
+    font-size: 22px;
+}
+
+p.adress {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+iframe {
+    width: 350px;
+    height: 350px;
+}
+
+.maps {
+    box-shadow: 0px 2px 11px var(--green-extra-dark);
+    margin-bottom: 100px;
+}
+
+p.detail-adress {
+    height: 2px;
+    width: 258px;
+    margin-top: -26px;
+    margin-bottom: 25px;
+    background-color: var(--green-principal);
+}
