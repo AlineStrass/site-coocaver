@@ -189,7 +189,7 @@ img.img02 {
     width: 320px;
 }
 
-/* --------------------------------------- POSTO --------------------------------------- */
+/* -------------------------------- SECTION POSTO - HOME---------------------------------- */
 
 div.gas-station {
     margin-bottom: 100px;
@@ -291,8 +291,31 @@ img.history {
     margin-bottom: 10px;
 }
 
+/* -------------------------------- POSTO ----------------------------------- */
 
+section.pg-gas-station {
+    margin: 50px 180px;
+    display: flex;
+    flex-direction: row;
+}
 
+img.img-gas-station {
+    width: 550px;
+    height: 350px;
+    margin-top: 100px;
+}
+
+div.img-gas-station {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+}
+
+h1.pg-gas-station {
+    margin-top: 100px;
+    margin-left: 50px;
+}
 
 /* --------------------------------------- FOOTER --------------------------------------- */
 
